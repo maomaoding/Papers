@@ -12,4 +12,8 @@
 [Deep Structure-Revealed Network for Texture Recognition](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhai_Deep_Structure-Revealed_Network_for_Texture_Recognition_CVPR_2020_paper.pdf)  
 [Material Recognition in the Wild with the Materials in Context Database](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.837.3477&rep=rep1&type=pdf)  
 [Reflectance Hashing for Material Recognition](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhang_Reflectance_Hashing_for_2015_CVPR_paper.pdf)  
-[Deep Texture Manifold for Ground Terrain Recognition](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xue_Deep_Texture_Manifold_CVPR_2018_paper.pdf)
+[Deep Texture Manifold for Ground Terrain Recognition](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xue_Deep_Texture_Manifold_CVPR_2018_paper.pdf)  
+
+##Pytorch Internals
+[Pytorch Internals](http://blog.ezyang.com/2019/05/pytorch-internals/)  
+[Pytorch Core Code Research](https://www.miracleyoo.com/2019/12/11/Pytorch-Core-Code-Research/)
