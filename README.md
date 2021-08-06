@@ -38,3 +38,6 @@ Image Retrieval](https://arxiv.org/pdf/1608.04267.pdf)
 
 ## Distributed training
 [BAGUA: Scaling up Distributed Learning with System Relaxations](https://arxiv.org/pdf/2107.01499.pdf)
+
+## Camera Calibration
+[Camera Calibration with Lens Distortion from Low-rank Textures](https://people.eecs.berkeley.edu/~yima/matrix-rank/Files/calibration.pdf)
