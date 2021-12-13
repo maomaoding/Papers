@@ -38,9 +38,38 @@ Image Retrieval](https://arxiv.org/pdf/1608.04267.pdf)
 [3-line RANSAC for Orthogonal Vanishing Point Detection](https://people.inf.ethz.ch/pomarc/pubs/BazinIROS12.pdf)
 
 ## Distributed training
-[BAGUA: Scaling up Distributed Learning with System Relaxations](https://arxiv.org/pdf/2107.01499.pdf)
+[BAGUA: Scaling up Distributed Learning with System Relaxations](https://arxiv.org/pdf/2107.01499.pdf)  
 
 ## Camera Calibration
 [Camera Calibration with Lens Distortion from Low-rank Textures](https://people.eecs.berkeley.edu/~yima/matrix-rank/Files/calibration.pdf)
 [Unsupervised intrinsic calibration from a single frame using a ”plumb-line”approach](https://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Melo_Unsupervised_Intrinsic_Calibration_2013_ICCV_paper.pdf)
-[Simultaneous Vanishing Point Detection and Camera Calibration from Single Images](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.691.5867&rep=rep1&type=pdf)
+[Simultaneous Vanishing Point Detection and Camera Calibration from Single Images](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.691.5867&rep=rep1&type=pdf)  
+
+## Transformer Related
+[AN IMAGE IS WORTH 16X16 WORDS:
+TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)  
+[LSTR :End-to-end Lane Shape Prediction with Transformers](https://openaccess.thecvf.com/content/WACV2021/papers/Liu_End-to-End_Lane_Shape_Prediction_With_Transformers_WACV_2021_paper.pdf)  
+[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/pdf/2103.14030.pdf)  
+* Feature Pyramid
+* Local transformer(changing order of magnitude) + shifted window
+* Relative Position Encoding  
+
+[Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction
+without Convolutions](https://arxiv.org/pdf/2102.12122.pdf)  
+* Feature Pyramid
+* Spatial Reduction(same order of magnitude)  
+
+[CROSSFORMER: A VERSATILE VISION TRANSFORMER
+HINGING ON CROSS-SCALE ATTENTION](https://arxiv.org/pdf/2108.00154.pdf)  
+* cross-scale embedding layer(CEL) functions just like spatial pyramid pooling layer(SPP)  
+* long short distance attention(LSDA) functions just like dilated convolution to reduce complexity of the vanilla transformer module  
+* dynamic position bias(DPB) use a MLP to generate the so-called relative position embedding to address the issue of variable token sizes  
+
+[Transformer_architecture_positional_encoding_explanation](https://kazemnejad.com/blog/transformer_architecture_positional_encoding/)
+* absolute position encoding explanation  
+
+[Self-Attention with Relative Position Representations](https://arxiv.org/pdf/1803.02155.pdf)
+* relative implementation explanation [link](https://medium.com/@_init_/how-self-attention-with-relative-position-representations-works-28173b8c245a)  
+
+[Rethinking and Improving Relative Position Encoding for Vision Transformer](https://arxiv.org/pdf/2107.14222.pdf)
+* investigate different four relative position encodings for vision tasks under two modes: bias and contextual
