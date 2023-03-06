@@ -2,6 +2,20 @@
 
 ## Fundamental related
 [On Calibration of Modern Neural Networks](https://arxiv.org/pdf/1706.04599.pdf)  
+[Accurate, Large Minibatch SGD:Training ImageNet in 1 Hour](https://arxiv.org/pdf/1706.02677.pdf)
+* when the minibatch size if multiplied by k, multiply the learning rate by k
+* gradual warmup to ramp up the learning rate from a small to a large rate(allowing healthy convergence at the start of training)  
+[Large Batch Training of convolutional networks](https://arxiv.org/pdf/1708.03888.pdf)
+[ON THE VARIANCE OF THE ADAPTIVE LEARNING RATE AND BEYOND](https://arxiv.org/pdf/1908.03265.pdf)
+* identify the variance issue of the adaptive learning rate and present a theoretical justification for the warmup heuristic, convergence issue is due to the undesirably large variance of the adaptive learning rate in the early stage of model training
+* propose a new variant of Adam(RAdam)
+[Truly shift-invariant convolutional neural networks](https://arxiv.org/pdf/2011.14214.pdf)
+[Fourier Transform](https://www.princeton.edu/~cuff/ele201/kulkarni_text/frequency.pdf)
+[MIND THE PAD – CNNS CAN DEVELOP BLIND SPOTS](https://arxiv.org/pdf/2010.02178.pdf)  
+[An Analysis of Scale Invariance in Object Detection – SNIP](https://arxiv.org/pdf/1711.08189.pdf)
+
+## Low-shot Learning
+[Low-Shot Learning from Imaginary Data](https://arxiv.org/pdf/1801.05401.pdf)
 
 ## Material Classification
 [Differential Viewpoints for Ground Terrain Material Recognition](https://arxiv.org/pdf/2009.11072v1.pdf)  
@@ -19,7 +33,9 @@
 [Pytorch Core Code Research](https://www.miracleyoo.com/2019/12/11/Pytorch-Core-Code-Research/)
 
 ## Scene Parsing
-[Scene Parsing through ADE20K Dataset](http://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf)
+[Scene Parsing through ADE20K Dataset](http://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf)  
+[NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/pdf/2003.08934.pdf)
+* [explanation blog](https://www.keep-current.dev/nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis/)
 
 ## Semantic Segmentation
 [Contour Detection and Hierarchical Image Segmentation](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
@@ -72,4 +88,23 @@ HINGING ON CROSS-SCALE ATTENTION](https://arxiv.org/pdf/2108.00154.pdf)
 * relative implementation explanation [link](https://medium.com/@_init_/how-self-attention-with-relative-position-representations-works-28173b8c245a)  
 
 [Rethinking and Improving Relative Position Encoding for Vision Transformer](https://arxiv.org/pdf/2107.14222.pdf)
-* investigate different four relative position encodings for vision tasks under two modes: bias and contextual
+* investigate different four relative position encodings for vision tasks under two modes: bias and contextual  
+
+[A Survey on Vision Transformer](https://arxiv.org/pdf/2012.12556.pdf)  
+[Attention is not all you need: pure attention loses rank doubly exponentially with depth](https://arxiv.org/pdf/2103.03404.pdf)
+
+## Lane Curve Parameter Detection  
+[Structured Bird’s-Eye-View Traffic Scene Understanding from Onboard Images](https://arxiv.org/pdf/2110.01997.pdf)  
+
+## BEV Segmentation & Detection
+[NEAT: Neural Attention Fields for End-to-End Autonomous Driving](https://arxiv.org/pdf/2109.04456.pdf)
+* Inspired by implicit shape representations, NEAT represents large dynamic scenes with a fixed memory footprint using a multi-layer perceptron query function  
+[Gen-LaneNet: A Generalized and Scalable Approach for 3D Lane Detection](https://arxiv.org/pdf/2003.10656.pdf)  
+[Learning to Predict 3D Lane Shape and Camera Pose from a Single Image via Geometry Constraints](https://arxiv.org/pdf/2112.15351.pdf)  
+[Monocular 3D Object Detection: An Extrinsic Parameter Free Approach](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhou_Monocular_3D_Object_Detection_An_Extrinsic_Parameter_Free_Approach_CVPR_2021_paper.pdf)  
+
+## Monocular 3D Detection
+[EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation](https://arxiv.org/pdf/2203.13254.pdf)
+
+## Diffusion Model
+[diffusion model](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#forward-diffusion-process)
