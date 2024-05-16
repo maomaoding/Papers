@@ -13,6 +13,7 @@
 [Fourier Transform](https://www.princeton.edu/~cuff/ele201/kulkarni_text/frequency.pdf)
 [MIND THE PAD – CNNS CAN DEVELOP BLIND SPOTS](https://arxiv.org/pdf/2010.02178.pdf)  
 [An Analysis of Scale Invariance in Object Detection – SNIP](https://arxiv.org/pdf/1711.08189.pdf)
+[Learning to Zoom: a Saliency-Based Sampling Layer for Neural Networks](https://arxiv.org/pdf/1809.03355.pdf)
 
 ## Low-shot Learning
 [Low-Shot Learning from Imaginary Data](https://arxiv.org/pdf/1801.05401.pdf)
@@ -35,7 +36,8 @@
 ## Scene Parsing
 [Scene Parsing through ADE20K Dataset](http://people.csail.mit.edu/bzhou/publication/scene-parse-camera-ready.pdf)  
 [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/pdf/2003.08934.pdf)
-* [explanation blog](https://www.keep-current.dev/nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis/)
+* [explanation blog](https://www.keep-current.dev/nerf-representing-scenes-as-neural-radiance-fields-for-view-synthesis/)  
+[3D Gaussian Splatting for Real-Time Radiance Field Rendering](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/3d_gaussian_splatting_high.pdf)
 
 ## Semantic Segmentation
 [Contour Detection and Hierarchical Image Segmentation](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html)
@@ -107,4 +109,10 @@ HINGING ON CROSS-SCALE ATTENTION](https://arxiv.org/pdf/2108.00154.pdf)
 [EPro-PnP: Generalized End-to-End Probabilistic Perspective-n-Points for Monocular Object Pose Estimation](https://arxiv.org/pdf/2203.13254.pdf)
 
 ## Diffusion Model
-[diffusion model](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#forward-diffusion-process)
+[diffusion model](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#forward-diffusion-process)  
+[Recursive Bayes Estimate](https://www.sabinasz.net/robot-localization-recursive-bayesian-estimation/)  
+[Consistency Models](https://arxiv.org/pdf/2303.01469)  
+
+## Un-/Self-supervised representation learning
+[Exploring Simple Siamese Representation Learning](https://arxiv.org/pdf/2011.10566.pdf)  
+
